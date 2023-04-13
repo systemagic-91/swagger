@@ -98,7 +98,7 @@ public class Controller{
 Agora recarregando o projeto e a pagina da documentação poderemos visualizar 
 os detalhes sobre endpoint definido:
 
-![GET](C:\Users\rayane.paiva\Git\swagger\src\main\resources\static\endpoint-get.png)
+![swagger/endpoint-get.png at main · systemagic-91/swagger (github.com)](https://github.com/systemagic-91/swagger/blob/main/src/main/resources/static/endpoint-get.png)
 
 A medida que adicionamos mais endpoints na aplicação o SpringDoc vai acrescentando
 na documentação alguns detalhes sobre o endpoint automaticamente. Outros detalhes
@@ -147,7 +147,7 @@ O que cada um dos métodos usado faz:
 
 Como resultado teremos: 
 
-![API Info](C:\Users\rayane.paiva\Git\swagger\src\main\resources\static\api-info.png)
+![swagger/api-info.png at main · systemagic-91/swagger (github.com)](https://github.com/systemagic-91/swagger/blob/main/src/main/resources/static/api-info.png)
 
 
 
@@ -184,11 +184,11 @@ As tags são usadas para agrupar operações relacionadas na documentação da A
 um meio para os usuários navegar facilmente pela documentação da API. Por exemplo, uma 
 API pode ter tags como "Usuários", "Produtos" e "Pedidos", que agrupam operações relacionadas.
 
-![Anotação Operation tags](C:\Users\rayane.paiva\Git\swagger\src\main\resources\static\tag-separada.png)
+![swagger/tag-separada.png at main · systemagic-91/swagger (github.com)](https://github.com/systemagic-91/swagger/blob/main/src/main/resources/static/tag-separada.png)
 
 O atributo `summary` descreve a operação e o `description` serve para detalhar a operação descrita.
 
-![Anotação Operation](C:\Users\rayane.paiva\Git\swagger\src\main\resources\static\anotacao-operation.png)
+![swagger/anotacao-operation.png at main · systemagic-91/swagger (github.com)](https://github.com/systemagic-91/swagger/blob/main/src/main/resources/static/anotacao-operation.png)
 
 
 #### `@ApiResponses e @ApiResponse`
@@ -216,7 +216,7 @@ public class Controller{
 
 Documentação: 
 
-![Anotação ApiResponse](C:\Users\rayane.paiva\Git\swagger\src\main\resources\static\responses.png)
+![swagger/responses.png at main · systemagic-91/swagger (github.com)](https://github.com/systemagic-91/swagger/blob/main/src/main/resources/static/responses.png)
 
 
 
@@ -226,17 +226,17 @@ Documentação:
 
 Normalmente usamos outras ferramentas como Postman ou Insomnia para testar o retorno dos endpoints de uma API. Entretanto podemos testar o retorno da API diretamente da Swagger UI. Para isso basta selecionar qual operação vamos testar:
 
-![Anotação Operation tags](C:\Users\rayane.paiva\Git\swagger\src\main\resources\static\tag-separada.png)
+![swagger/tag-separada.png at main · systemagic-91/swagger (github.com)](https://github.com/systemagic-91/swagger/blob/main/src/main/resources/static/tag-separada.png)
 
 Clicamos em `Try it Out`:
 
-![](C:\Users\rayane.paiva\Git\swagger\src\main\resources\static\testando-get-0.png)
+![swagger/testando-get-0.png at main · systemagic-91/swagger (github.com)](https://github.com/systemagic-91/swagger/blob/main/src/main/resources/static/testando-get-0.png)
 
 A caixa para entrar com o parâmetro da requisição e um botão serão habilitados:
 
-![](C:\Users\rayane.paiva\Git\swagger\src\main\resources\static\testando-get-1.png)
+![swagger/testando-get-1.png at main · systemagic-91/swagger (github.com)](https://github.com/systemagic-91/swagger/blob/main/src/main/resources/static/testando-get-1.png)
 
 Após passar o paramento basta executar a operação e conferir a resposta retornada pela API:
 
-![](C:\Users\rayane.paiva\Git\swagger\src\main\resources\static\testando-get-2.png)
+![swagger/testando-get-2.png at main · systemagic-91/swagger (github.com)](https://github.com/systemagic-91/swagger/blob/main/src/main/resources/static/testando-get-2.png)
 
