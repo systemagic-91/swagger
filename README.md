@@ -67,7 +67,7 @@ A partir desse daqui ja podemos acessar a documentação que o SpringDoc gerou p
 nossa API. O acesso pode ser feito no link: http://localhost:8080/swagger-ui/index.html.
 Assim que acessarmos veremos a seguinte página: 
 
-![Swagger Pagina Inicial](C:\Users\rayane.paiva\Git\swagger\src\main\resources\static\configuracao-swagger.png)
+![Swagger Pagina Inicial](https://github.com/systemagic-91/swagger/blob/main/src/main/resources/static/configuracao-swagger.png)
 
 A mensagem: "No operations defined in spec!" indica que não foram encontradas operações
 (métodos) definidos na especificação Swagger. Isso significa que não foi localizado
