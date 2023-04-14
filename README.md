@@ -13,7 +13,7 @@ diretamente na documentação gerada.
 ### SpringDoc
 
 O SpringDoc, é uma biblioteca do Spring Framework que fornece uma implementação 
-da especificação OpenAPI para gerar a documentação da API automaticamente. Ele 
+da especificação OpenAPI (conhecida como Especificação Swagger) para gerar a documentação da API automaticamente. Ele 
 usa as anotações do Spring Framework para mapear a API e gerar a documentação 
 da API no formato OpenAPI.
 
